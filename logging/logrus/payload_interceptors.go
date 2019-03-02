@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/golang/protobuf/jsonpb"
-	"github.com/golang/protobuf/proto"
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags/logrus"
-	"github.com/sirupsen/logrus"
+	"github.com/Beeketing/protobuf/jsonpb"
+	"github.com/Beeketing/protobuf/proto"
+	"github.com/Beeketing/go-grpc-middleware/logging"
+	"github.com/Beeketing/go-grpc-middleware/tags/logrus"
+	"github.com/Beeketing/logrus"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 )
 
 var (

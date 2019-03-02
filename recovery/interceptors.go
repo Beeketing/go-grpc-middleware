@@ -5,8 +5,8 @@ package grpc_recovery
 
 import (
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 // RecoveryHandlerFunc is a function that recovers from the panic `p` by returning an `error`.

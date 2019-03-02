@@ -3,7 +3,7 @@ package ctxlogrus
 import (
 	"io/ioutil"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Beeketing/logrus"
 )
 
 var (

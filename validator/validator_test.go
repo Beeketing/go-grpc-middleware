@@ -7,17 +7,17 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/suite"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 
 	"io"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go/codes"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/testing"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	"github.com/grpc-ecosystem/go-grpc-middleware/validator"
+	"github.com/Beeketing/go-grpc-middleware/testing"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
+	"github.com/Beeketing/go-grpc-middleware/validator"
 )
 
 var (

@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	"go.uber.org/zap/zapcore"
+	"github.com/Beeketing/go-grpc-middleware/logging/zap"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
+	"github.com/Beeketing/zap/zapcore"
 )
 
 func customClientCodeToLevel(c codes.Code) zapcore.Level {

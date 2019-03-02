@@ -2,7 +2,7 @@ package grpc_zap
 
 import (
 	"github.com/stretchr/testify/assert"
-	"go.uber.org/zap/zapcore"
+	"github.com/Beeketing/zap/zapcore"
 	"math"
 	"testing"
 	"time"

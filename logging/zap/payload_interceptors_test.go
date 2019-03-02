@@ -7,20 +7,20 @@ import (
 	"strings"
 
 	"github.com/stretchr/testify/suite"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 
 	"io"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
+	"github.com/Beeketing/go-grpc-middleware"
+	"github.com/Beeketing/go-grpc-middleware/tags"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/Beeketing/go-grpc-middleware/logging/zap"
+	"github.com/Beeketing/zap"
+	"github.com/Beeketing/zap/zapcore"
 )
 
 func TestZapPayloadSuite(t *testing.T) {

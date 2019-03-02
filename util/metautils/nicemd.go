@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/metadata"
+	"github.com/Beeketing/grpc-go/metadata"
 )
 
 // NiceMD is a convenience wrapper definiting extra functions on the metadata.

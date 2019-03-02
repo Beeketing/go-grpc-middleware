@@ -6,9 +6,9 @@ package grpc_logrus
 import (
 	"time"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging"
-	"github.com/sirupsen/logrus"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/go-grpc-middleware/logging"
+	"github.com/Beeketing/logrus"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 var (

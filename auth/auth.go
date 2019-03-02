@@ -4,9 +4,9 @@
 package grpc_auth
 
 import (
-	"github.com/grpc-ecosystem/go-grpc-middleware"
+	"github.com/Beeketing/go-grpc-middleware"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 )
 
 // AuthFunc is the pluggable function that performs authentication.

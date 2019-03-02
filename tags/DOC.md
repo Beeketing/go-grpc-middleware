@@ -1,5 +1,5 @@
 # grpc_ctxtags
-`import "github.com/grpc-ecosystem/go-grpc-middleware/tags"`
+`import "github.com/Beeketing/go-grpc-middleware/tags"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

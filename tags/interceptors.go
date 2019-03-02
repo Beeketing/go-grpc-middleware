@@ -4,10 +4,10 @@
 package grpc_ctxtags
 
 import (
-	"github.com/grpc-ecosystem/go-grpc-middleware"
+	"github.com/Beeketing/go-grpc-middleware"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/peer"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/peer"
 )
 
 // UnaryServerInterceptor returns a new unary server interceptors that sets the values for request tags.

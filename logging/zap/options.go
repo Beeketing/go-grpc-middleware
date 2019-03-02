@@ -3,10 +3,10 @@ package grpc_zap
 import (
 	"time"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/go-grpc-middleware/logging"
+	"github.com/Beeketing/zap"
+	"github.com/Beeketing/zap/zapcore"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 var (

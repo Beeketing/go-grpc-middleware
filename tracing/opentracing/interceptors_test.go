@@ -12,19 +12,19 @@ import (
 
 	"io"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	grpc_testing "github.com/grpc-ecosystem/go-grpc-middleware/testing"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	grpc_opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
-	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/mocktracer"
+	"github.com/Beeketing/go-grpc-middleware"
+	"github.com/Beeketing/go-grpc-middleware/tags"
+	grpc_testing "github.com/Beeketing/go-grpc-middleware/testing"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
+	grpc_opentracing "github.com/Beeketing/go-grpc-middleware/tracing/opentracing"
+	opentracing "github.com/Beeketing/opentracing-go"
+	"github.com/Beeketing/opentracing-go/mocktracer"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 var (

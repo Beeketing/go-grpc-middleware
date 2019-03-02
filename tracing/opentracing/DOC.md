@@ -1,5 +1,5 @@
 # grpc_opentracing
-`import "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"`
+`import "github.com/Beeketing/go-grpc-middleware/tracing/opentracing"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

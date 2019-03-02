@@ -21,12 +21,12 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/golang/protobuf"
+  name = "github.com/Beeketing/protobuf"
   packages = ["jsonpb","proto","ptypes","ptypes/any","ptypes/duration","ptypes/struct","ptypes/timestamp"]
   revision = "1e59b77b52bf8e4b449a57e6f79f21226d571845"
 
 [[projects]]
-  name = "github.com/opentracing/opentracing-go"
+  name = "github.com/Beeketing/opentracing-go"
   packages = [".","ext","log","mocktracer"]
   revision = "1949ddbfd147afd4d964a9f00b24eb291e0e7c38"
   version = "v1.0.2"
@@ -38,7 +38,7 @@
   version = "v1.0.0"
 
 [[projects]]
-  name = "github.com/sirupsen/logrus"
+  name = "github.com/Beeketing/logrus"
   packages = ["."]
   revision = "f006c2ac4710855cf0f916dd6b77acf6b048dc6e"
   version = "v1.0.3"
@@ -62,7 +62,7 @@
   version = "v1.1.0"
 
 [[projects]]
-  name = "go.uber.org/zap"
+  name = "github.com/Beeketing/zap"
   packages = [".","buffer","internal/bufferpool","internal/color","internal/exit","zapcore"]
   revision = "35aad584952c3e7020db7b839f6b102de6271f89"
   version = "v1.7.1"
@@ -110,7 +110,7 @@
   revision = "7f0da29060c682909f650ad8ed4e515bd74fa12a"
 
 [[projects]]
-  name = "google.golang.org/grpc"
+  name = "github.com/Beeketing/grpc-go"
   packages = [".","balancer","balancer/roundrobin","codes","connectivity","credentials","credentials/oauth","encoding","grpclb/grpc_lb_v1/messages","grpclog","internal","keepalive","metadata","naming","peer","resolver","resolver/dns","resolver/passthrough","stats","status","tap","transport"]
   revision = "5a9f7b402fe85096d2e1d0383435ee1876e863d0"
   version = "v1.8.0"

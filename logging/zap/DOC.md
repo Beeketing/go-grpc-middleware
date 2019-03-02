@@ -1,5 +1,5 @@
 # grpc_zap
-`import "github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"`
+`import "github.com/Beeketing/go-grpc-middleware/logging/zap"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

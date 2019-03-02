@@ -1,5 +1,5 @@
 # ctx_logrus
-`import "github.com/grpc-ecosystem/go-grpc-middleware/tags/logrus"`
+`import "github.com/Beeketing/go-grpc-middleware/tags/logrus"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

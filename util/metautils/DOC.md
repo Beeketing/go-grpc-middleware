@@ -1,5 +1,5 @@
 # metautils
-`import "github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"`
+`import "github.com/Beeketing/go-grpc-middleware/util/metautils"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

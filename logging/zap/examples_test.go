@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags/zap"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/go-grpc-middleware"
+	"github.com/Beeketing/go-grpc-middleware/logging/zap"
+	"github.com/Beeketing/go-grpc-middleware/tags"
+	"github.com/Beeketing/go-grpc-middleware/tags/zap"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
+	"github.com/Beeketing/zap"
+	"github.com/Beeketing/zap/zapcore"
+	"github.com/Beeketing/grpc-go"
 )
 
 var (

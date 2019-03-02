@@ -1,9 +1,9 @@
 package grpc_zap
 
 import (
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap/ctxzap"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/Beeketing/go-grpc-middleware/logging/zap/ctxzap"
+	"github.com/Beeketing/zap"
+	"github.com/Beeketing/zap/zapcore"
 	"golang.org/x/net/context"
 )
 

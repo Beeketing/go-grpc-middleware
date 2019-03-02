@@ -11,12 +11,12 @@ import (
 	"path"
 	"runtime"
 
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/credentials"
 )
 
 var (

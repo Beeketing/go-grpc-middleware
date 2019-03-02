@@ -6,8 +6,8 @@ package grpc_zap
 import (
 	"fmt"
 
-	"go.uber.org/zap"
-	"google.golang.org/grpc/grpclog"
+	"github.com/Beeketing/zap"
+	"github.com/Beeketing/grpc-go/grpclog"
 )
 
 // ReplaceGrpcLogger sets the given zap.Logger as a gRPC-level logger.

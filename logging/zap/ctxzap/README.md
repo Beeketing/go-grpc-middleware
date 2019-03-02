@@ -1,5 +1,5 @@
 # ctx_zap
-`import "github.com/grpc-ecosystem/go-grpc-middleware/tags/zap"`
+`import "github.com/Beeketing/go-grpc-middleware/tags/zap"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

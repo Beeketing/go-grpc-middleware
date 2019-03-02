@@ -7,23 +7,23 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/suite"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 
 	"fmt"
 
 	"time"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/auth"
-	"github.com/grpc-ecosystem/go-grpc-middleware/testing"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
+	"github.com/Beeketing/go-grpc-middleware/auth"
+	"github.com/Beeketing/go-grpc-middleware/testing"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
+	"github.com/Beeketing/go-grpc-middleware/util/metautils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials/oauth"
-	"google.golang.org/grpc/metadata"
+	"github.com/Beeketing/grpc-go/codes"
+	"github.com/Beeketing/grpc-go/credentials/oauth"
+	"github.com/Beeketing/grpc-go/metadata"
 )
 
 var (

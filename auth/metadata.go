@@ -6,10 +6,10 @@ package grpc_auth
 import (
 	"strings"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
+	"github.com/Beeketing/go-grpc-middleware/util/metautils"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 
 	"fmt"
 
-	"google.golang.org/grpc/metadata"
+	"github.com/Beeketing/grpc-go/metadata"
 )
 
 const (

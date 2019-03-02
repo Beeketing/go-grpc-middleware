@@ -4,15 +4,15 @@
 package grpc_opentracing
 
 import (
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
-	"github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/ext"
-	"github.com/opentracing/opentracing-go/log"
+	"github.com/Beeketing/go-grpc-middleware"
+	"github.com/Beeketing/go-grpc-middleware/tags"
+	"github.com/Beeketing/go-grpc-middleware/util/metautils"
+	"github.com/Beeketing/opentracing-go"
+	"github.com/Beeketing/opentracing-go/ext"
+	"github.com/Beeketing/opentracing-go/log"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/grpclog"
 )
 
 var (

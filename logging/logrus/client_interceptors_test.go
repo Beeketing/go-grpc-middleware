@@ -6,15 +6,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"
-	"github.com/sirupsen/logrus"
+	"github.com/Beeketing/go-grpc-middleware/logging/logrus"
+	"github.com/Beeketing/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
 )
 
 func customClientCodeToLevel(c codes.Code) logrus.Level {

@@ -1,5 +1,5 @@
 # grpc_retry
-`import "github.com/grpc-ecosystem/go-grpc-middleware/retry"`
+`import "github.com/Beeketing/go-grpc-middleware/retry"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)

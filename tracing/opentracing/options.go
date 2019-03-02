@@ -6,7 +6,7 @@ package grpc_opentracing
 import (
 	"context"
 
-	"github.com/opentracing/opentracing-go"
+	"github.com/Beeketing/opentracing-go"
 )
 
 var (

@@ -7,7 +7,7 @@ package grpc_middleware
 
 import (
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 )
 
 // ChainUnaryServer creates a single interceptor out of a chain of many interceptors.

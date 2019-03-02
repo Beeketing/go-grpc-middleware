@@ -7,14 +7,14 @@ import (
 	"io"
 	"sync"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
-	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/ext"
-	"github.com/opentracing/opentracing-go/log"
+	"github.com/Beeketing/go-grpc-middleware/util/metautils"
+	opentracing "github.com/Beeketing/opentracing-go"
+	"github.com/Beeketing/opentracing-go/ext"
+	"github.com/Beeketing/opentracing-go/log"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/metadata"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/grpclog"
+	"github.com/Beeketing/grpc-go/metadata"
 )
 
 // UnaryClientInterceptor returns a new unary client interceptor for OpenTracing.

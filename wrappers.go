@@ -5,7 +5,7 @@ package grpc_middleware
 
 import (
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 )
 
 // WrappedServerStream is a thin wrapper around grpc.ServerStream that allows modifying context.

@@ -6,10 +6,10 @@ package metautils_test
 import (
 	"testing"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
+	"github.com/Beeketing/go-grpc-middleware/util/metautils"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/metadata"
+	"github.com/Beeketing/grpc-go/metadata"
 )
 
 var (

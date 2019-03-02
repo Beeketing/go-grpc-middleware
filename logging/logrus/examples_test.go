@@ -3,14 +3,14 @@ package grpc_logrus_test
 import (
 	"time"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware"
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags/logrus"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	"github.com/sirupsen/logrus"
+	"github.com/Beeketing/go-grpc-middleware"
+	"github.com/Beeketing/go-grpc-middleware/logging/logrus"
+	"github.com/Beeketing/go-grpc-middleware/tags"
+	"github.com/Beeketing/go-grpc-middleware/tags/logrus"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
+	"github.com/Beeketing/logrus"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 )
 
 var (

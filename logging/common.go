@@ -5,8 +5,8 @@ package grpc_logging
 
 import (
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 // ErrorToCode function determines the error code of an error

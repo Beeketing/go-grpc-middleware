@@ -7,9 +7,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/sirupsen/logrus"
+	"github.com/Beeketing/logrus"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 )
 
 // UnaryClientInterceptor returns a new unary client interceptor that optionally logs the execution of external gRPC calls.

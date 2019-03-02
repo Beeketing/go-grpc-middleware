@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/metadata"
 )
 
 var (

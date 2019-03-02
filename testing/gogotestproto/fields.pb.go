@@ -20,7 +20,7 @@ It has these top-level messages:
 */
 package mwitkow_testproto
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/Beeketing/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/gogo/protobuf/gogoproto"

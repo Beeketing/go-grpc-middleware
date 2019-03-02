@@ -7,10 +7,10 @@ import (
 	"path"
 	"time"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/Beeketing/zap"
+	"github.com/Beeketing/zap/zapcore"
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 )
 
 var (

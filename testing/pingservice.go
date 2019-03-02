@@ -11,11 +11,11 @@ import (
 	"io"
 	"testing"
 
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 const (

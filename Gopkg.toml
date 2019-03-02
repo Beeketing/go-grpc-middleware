@@ -4,14 +4,14 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/golang/protobuf"
+  name = "github.com/Beeketing/protobuf"
 
 [[constraint]]
-  name = "github.com/opentracing/opentracing-go"
+  name = "github.com/Beeketing/opentracing-go"
   version = "1.0.2"
 
 [[constraint]]
-  name = "github.com/sirupsen/logrus"
+  name = "github.com/Beeketing/logrus"
   version = "1.0.3"
 
 [[constraint]]
@@ -19,7 +19,7 @@
   version = "1.1.4"
 
 [[constraint]]
-  name = "go.uber.org/zap"
+  name = "github.com/Beeketing/zap"
   version = "1.7.1"
 
 [[constraint]]
@@ -31,5 +31,5 @@
   name = "golang.org/x/oauth2"
 
 [[constraint]]
-  name = "google.golang.org/grpc"
+  name = "github.com/Beeketing/grpc-go"
   version = "1.8.0"

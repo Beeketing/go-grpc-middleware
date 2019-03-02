@@ -3,10 +3,10 @@ package ctxzap_test
 import (
 	"context"
 
-	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap/ctxzap"
-	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
-	pb_testproto "github.com/grpc-ecosystem/go-grpc-middleware/testing/testproto"
-	"go.uber.org/zap"
+	"github.com/Beeketing/go-grpc-middleware/logging/zap/ctxzap"
+	"github.com/Beeketing/go-grpc-middleware/tags"
+	pb_testproto "github.com/Beeketing/go-grpc-middleware/testing/testproto"
+	"github.com/Beeketing/zap"
 )
 
 var zapLogger *zap.Logger

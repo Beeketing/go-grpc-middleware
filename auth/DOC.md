@@ -1,5 +1,5 @@
 # grpc_auth
-`import "github.com/grpc-ecosystem/go-grpc-middleware/auth"`
+`import "github.com/Beeketing/go-grpc-middleware/auth"`
 
 * [Overview](#pkg-overview)
 * [Imported Packages](#pkg-imports)
@@ -30,11 +30,11 @@ Please see examples for simple examples of use.
 package grpc_auth_test
 
 import (
-    "github.com/grpc-ecosystem/go-grpc-middleware/auth"
-    "github.com/grpc-ecosystem/go-grpc-middleware/tags"
+    "github.com/Beeketing/go-grpc-middleware/auth"
+    "github.com/Beeketing/go-grpc-middleware/tags"
     "golang.org/x/net/context"
-    "google.golang.org/grpc"
-    "google.golang.org/grpc/codes"
+    "github.com/Beeketing/grpc-go"
+    "github.com/Beeketing/grpc-go/codes"
 )
 
 var (

@@ -6,8 +6,8 @@ package grpc_retry
 import (
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 var (
